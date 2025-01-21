@@ -391,5 +391,129 @@ main{
     margin-bottom: 32px;
   }
 
+/* Responsive Part */
+@media screen and (max-width: 576px) {
+
+    /* Adjusting navigation */
+    nav, .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .school, .button {
+        margin: 0;
+    }
+    
+    /* Banner section */
+    .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .banner-image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .banner-content {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+    .banner-description {
+        font-size: 1rem;
+    }
+
+    /* Curriculum section */
+    .curriculum {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+        /* margin: 0px; */
+    }
+
+    .curriculum-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .curriculum-description {
+        width: 100%;
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+    .smart-button {
+        display: none;
+    }
+
+    /* Stories section */
+    .stories-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 100%;
+    }
+    .stories-card{
+        display: none;
+    }
+   .stories-others-card {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .stories-next-part {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .des-des {
+        width: auto;
+        font-size: 0.85rem;
+    }
+    .stories-secondary-button,
+    .stories-secondary-backup-button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .view-all {
+        margin: 20px auto;
+    }
+
+    /* Footer adjustments */
+    .footer {
+        padding: 40px 10px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title1 {
+        font-size: 2.6rem; 
+        text-align: left;
+    }
+
+    .description1 {
+        font-size: 1.1rem;
+        text-align: left; 
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .footer-column {
+        margin-bottom: 15px;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .footer-column ul li a {
+        font-size: 1rem;
+    }
+    
+}
+
 
 
