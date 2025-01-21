@@ -316,10 +316,7 @@ main{
     width: 100%;
     height: auto;
   }
-  
-  
   /* view all buttton*/
-  
   .view-all {
     margin-top: 80px;
     margin-bottom: 60px;
@@ -332,6 +329,67 @@ main{
     font-size: 1.25rem;
   }
 
+
+/* footer section */
+.footer {
+    background-color: rgba(1, 172, 253, 1.00);
+    padding: 123px 140px;
+  }
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+.title1{
+    font-weight: 700;
+    font-size: 2.63rem;
+    color: #FFFFFF;
+  }
+.description1{
+    font-weight: 400;
+    font-size: 1.25rem;
+    width: 400px;
+    margin-top: 20px;
+    color: #FFFFFF;
+  }
+.footer-logo {
+    display: flex;
+    align-items: center;
+  } 
+.logo-icon{
+    width: 83px;
+    height: 82px;
+    margin-right: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+  .title2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+  }
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-column ul li {
+    margin-bottom: 30px;
+  }
+  .footer-column ul li a {
+    color: rgba(255, 255, 255, 1.00);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+  .title3{
+    font-weight: 700;
+    font-size: 1.625rem;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+  }
 
 
 
