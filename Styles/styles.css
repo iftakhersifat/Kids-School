@@ -113,6 +113,98 @@ ul>li>a{
 .banner-image img{
     width: 100%;
 }
+main{
+    background-image: url("../assets/bg.png");
+}
+/* curriculum section part */
+.curriculum{
+    display: flex;
+    gap: 28px;
+    width: 1160px;
+    margin: 0 auto;
+}
+.curriculum-part1{
+    background: linear-gradient(to bottom, #dff3ff 0%, #ffffff 30%, #ffffff 100%);
+    box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+    border-radius: 18.86px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.curriculum-img{
+    margin-top: 52px;
+    margin-bottom: 32px;
+}
+.curriculum-title{
+    text-align: center;
+    color: rgba(0, 0, 0, 1.00);
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.curriculum-headline{
+    color: rgba(32, 32, 32, 1.00);
+    font-weight: 700;
+    font-size: 1.53rem;
+    margin-bottom: 33px;
+}
+.curriculum-description{
+    color: rgba(128, 128, 128, 1.00);
+    font-weight: 600;
+    font-size: 0.94rem;
+    margin-bottom: 34px;
+    width: 300px;
+}
+.curriculum-button{
+    color: rgba(100, 200, 255, 1.00);
+    border: none;
+    background-color: transparent;
+    margin-bottom: 53px;
+}
+.curriculum-part2{
+    background: linear-gradient(to bottom, #FFF4DC 0%, #ffffff 30%, #ffffff 100%);
+    box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+    border-radius: 18.86px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.curriculum-button2{
+    color: rgba(240, 170, 0, 1.00);
+    border: none;
+    background-color: transparent;
+    margin-bottom: 53px;
+}
+.curriculum-part3{
+    box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(to bottom, #F2E8FF 0%, #ffffff 30%, #ffffff 100%);
+    border-radius: 18.86px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.curriculum-button3{
+    color: rgba(135, 0, 255, 1.00);
+    border: none;
+    background-color: transparent;
+    margin-bottom: 53px;
+}
+/* less than and greater than button */
+.smart-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.lessthan-greater-button{
+    background-color: rgba(254, 163, 1, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+    border-radius: 30px;
+    border: none;
+    padding: 17px 22px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
 
 
 
