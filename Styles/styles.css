@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-simple {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 1440px;
+    margin: 0 auto; */
+}
+.school{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11px;
+    margin-right: 186px;
+}
+.home{
+    color: rgba(254, 163, 1, 1.00);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.about{
+    color: rgba(1, 172, 253, 1.00);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.facilities{
+    color: rgba(5, 212, 223, 1.00);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.admission{
+    color: rgba(93, 88, 239, 1.00);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.button{
+    background-color: rgba(254, 163, 1, 1.00);
+    border-radius: 12px;
+    border: none;
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 10px 60px;
+    margin-left: 186px;
+}
+ul>li>a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+/* banner part */
+.banner-content{
+    width: 640px;
+    align-items: center;
+    /* margin-left: 230px; */
+    margin-top: 122px;
+    margin-bottom: 122px;
+    margin: 0 auto;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: rgba(17, 17, 17, 1.00);
+    margin-bottom: 24px;
+}
+.title-color1{
+    color: rgba(254, 163, 1, 1.00);
+}
+.title-color2{
+    color: rgba(1, 172, 253, 1.00);
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgba(17, 17, 17, 1.00);
+    margin-bottom: 24px;
+}
+.banner-button{
+    background-color: rgba(17, 17, 17, 1.00);
+    border-radius: 12px;
+    border: none;
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 10px 47px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 340px;
+    gap: 50px; 
+}
+.banner-image{
+    width: 468px;
+    /* margin-right: 120px; */
+}
+.banner-image img{
+    width: 100%;
+}
+
+
+
+
